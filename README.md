@@ -1,38 +1,11 @@
-# **my\_controller**
+# **6WD\_controller\_6204**
+This project is created for the class ELE6204A at Polytechnique Montreal, as a project on nonlinear systems. The goal is to implement a 6 wheel skid-steering control for a robot. The system is not fully functionnal at the moment, depending mainly on wheel friction coefficients and speed necessaries to operate the robot.
+ 
+This is the implementation of a 6WD controller based on the article: 
+"Dynamic control of the 6WD skid-steering mobile robot RobuROC6
+using sliding mode technique" by E. Lucet et al.
+ 
+This ROS controller is based on the tutorials and examples of of: 
+ - Jonathan Cacace - https://github.com/jocacace/my_controller
+ - NASA JSC Robotics - https://gitlab.com/nasa-jsc-robotics/valkyrie/-/wikis/How-To-Write-A-Controller-For-Valkyrie
 
-Source code for _Chapter 7_ of the book [Master ROS for Robotic Programming, Second edition](https://www.packtpub.com/hardware-and-creative/mastering-ros-robotics-programming-second-edition) source code main repository.
-
-### Main repository
-[mastering\_ros\_2nd\_ed](https://github.com/jocacace/mastering_ros_2nd_ed)
-
-![book_cover](http://wpage.unina.it/jonathan.cacace/Media/book_cover.png "mastering_ros_for_robotics_programming")
-
-## **Author**
-[Jonathan Cacace](http://wpage.unina.it/jonathan.cacace), PhD.
-
-
-## **Description**
-
-**Chapter 7**: Writing ROS Controllers and Visualization Plugins 
-
-Description of ros_control package to interface and control robot actuators in ROS. Example of ROS visualization plugins.
-
-_Original source code_ from [Josep Lentin](https://www.linkedin.com/in/lentinjoseph/): [Mastering Ros for Robotics Programming]( https://github.com/qboticslabs/mastering_ros)
-
-### **Installation** 
-Download this package in the _src_ folder of your ROS workspace
-
-```git clone https://github.com/jocacace/my_controller```
-
-Compile the package
-
-```catkin_make```
-
-or
-
-```catkin_make -DCATCKIN_WHITELIST_PACKAGES="my_controller"```
-
-### **Get this book** (in pre-order)
-- [Packt Publishing](https://www.packtpub.com/hardware-and-creative/mastering-ros-robotics-programming-second-edition) 
-- [Amazon](https://www.amazon.com/Mastering-ROS-Robotics-Programming-Second/dp/1788478959)
-# 6WD_controller_6204
