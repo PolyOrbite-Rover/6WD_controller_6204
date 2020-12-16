@@ -1,0 +1,7 @@
+<library path="lib/libcontroller_6204_lib">
+	<class name="controller_6204_ns/Controller_6204"
+				 type="controller_6204_ns::Controller_6204"
+				 base_class_type="controller_interface::ControllerBase" />
+</library>
+
+
